@@ -128,7 +128,8 @@ Fixed bugs worth remembering:
 - A page-level `openGraph` replaces the root file-based OG image. `buildMetadata` therefore sets the default image explicitly.
 
 Pending (owner's side):
-- [ ] Set `NEXT_PUBLIC_SITE_URL` (real domain unknown; canonicals fall back to localhost)
+- [ ] Hosting: Vercel with the free `*.vercel.app` domain (owner's plan). `site.ts` falls back to `VERCEL_PROJECT_PRODUCTION_URL` automatically, so `NEXT_PUBLIC_SITE_URL` is only needed once a custom domain is connected.
+- [x] GitHub repo: https://github.com/pushprajchaudhary/mark-imaging (branch `main`)
 - [ ] Set `NEXT_PUBLIC_ENQUIRY_ENDPOINT` (Formspree, CRM etc.)
 - [ ] Legal review of the 3 legal pages, then pass `reviewed` to `LegalPage`
 - [ ] Review the 3 blog drafts (`draft: true` means noindex and not in the sitemap), then set `draft: false`

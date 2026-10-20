@@ -4,10 +4,19 @@
  * brochure or confirmed in writing by the company.
  */
 
+/**
+ * Canonical origin, in order of preference:
+ * 1. NEXT_PUBLIC_SITE_URL (set this once a custom domain is connected)
+ * 2. Vercel's production domain, e.g. mark-imaging.vercel.app (system env var,
+ *    available at build time on Vercel, so static pages get correct URLs)
+ * 3. localhost for local development
+ */
 function resolveSiteUrl(): string {
   const fromEnv = process.env.NEXT_PUBLIC_SITE_URL?.trim().replace(/\/+$/, "");
   if (fromEnv) return fromEnv;
-  if (process.env.NODE_ENV === "production") {
+  const vercelDomain = process.env.VERCEL_PROJECT_PRODUCTION_URL?.trim();
+  if (vercelDomain) return `https://${vercelDomain}`;
+  if (process.env.NODE_ENV === "production" && typeof window === "undefined") {
     console.warn(
       "[mark-imaging] NEXT_PUBLIC_SITE_URL is not set. Canonical URLs, sitemap and structured data will point to localhost.",
     );
