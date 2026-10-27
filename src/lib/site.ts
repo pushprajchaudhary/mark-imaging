@@ -39,9 +39,9 @@ export const siteConfig = {
     phoneHref: "tel:+918126963692",
     phoneE164: "+918126963692",
     email: "markimaging9@gmail.com",
-    addressLine: "Sarita Vihar, Delhi",
-    addressLocality: "Sarita Vihar",
-    addressRegion: "Delhi",
+    addressLine: "Mathura, Uttar Pradesh",
+    addressLocality: "Mathura",
+    addressRegion: "Uttar Pradesh",
     addressCountry: "IN",
   },
   logo: {

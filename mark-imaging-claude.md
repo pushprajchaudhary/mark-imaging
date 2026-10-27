@@ -5,7 +5,7 @@ More detail: [docs/STRATEGY.md](docs/STRATEGY.md) (sitemap, keyword map, design 
 
 ## What this is
 
-An SEO-first, B2B corporate website for **Mark Imaging, a "Radiology Outsourcing Solution"** (teleradiology / radiology outsourcing, based in Sarita Vihar, Delhi). Its goals are organic Google traffic and qualified leads from hospitals, diagnostic centres and imaging centres.
+An SEO-first, B2B corporate website for **Mark Imaging, a "Radiology Outsourcing Solution"** (teleradiology / radiology outsourcing, based in Mathura, Uttar Pradesh). Its goals are organic Google traffic and qualified leads from hospitals, diagnostic centres and imaging centres.
 
 - Owner: Pushpraj Chaudhary (senior Next.js architect / UI-UX / SEO). Communicates in Hinglish.
 - Project location: `~/Desktop/mark-imaging`.
@@ -27,7 +27,7 @@ npm run dev | npm run build | npm start | npm run lint | npm run typecheck
 3. The core positioning must stay: **"Aggregator of Radiology Providers, not a typical teleradiology company"**, with multiple Radiology Associates (registered firms of groups of radiologists) as partners across India.
 4. No patient-facing diagnosis. The audience is B2B. The enquiry form must never collect patient data.
 5. Avoid "100% accurate", "best radiologists", "India's #1", "guaranteed diagnosis" and generic AI marketing phrases.
-6. Contact details are exact: **+91-81269-63692**, **markimaging9@gmail.com**, **Sarita Vihar, Delhi**.
+6. Contact details are exact: **+91-81269-63692**, **markimaging9@gmail.com**, **Mathura, Uttar Pradesh**.
 7. Prices exist (`src/content/pricing.ts`) but are hidden. `/pricing` returns 404 unless `siteConfig.features.showPricing = true`.
 
 ## Brochure facts in brief

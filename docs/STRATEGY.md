@@ -19,7 +19,7 @@ Everything stated as fact on the site comes from `MARK IMAGING BROCHURE.pdf`.
 | Pricing | Per-study charges; staffing INR 20–30K/day, 4–6K/hour, depends on timings; software as per requirement | `src/content/pricing.ts` (off by default) |
 | Process | 1) requirement, negotiation, contract; 2) third-party cloud PACS at premises on a networked, internet-connected system; 3) push from console, reporting starts, PACS access to update history | How it works, everywhere |
 | Standards | Strict verification; documents on demand; dedicated RM; 1-year study storage; invoices by 15th of subsequent month | Quality page |
-| Contact | +91-81269-63692 · markimaging9@gmail.com · Sarita Vihar, Delhi | Footer, contact, schema |
+| Contact | +91-81269-63692 · markimaging9@gmail.com · Mathura, Uttar Pradesh | Footer, contact, schema |
 
 ### Information not in the brochure (left out or marked as a placeholder)
 
